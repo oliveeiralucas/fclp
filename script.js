@@ -3,7 +3,7 @@
 const botaoDarkMode = document.querySelector('#darkMode-icon'); //define o botão do darkMode
 
 function changeBackground() {
-  document.documentElement.style.setProperty('--bg-color', '#0d051c');
+  document.documentElement.style.setProperty('--bg-color', '#fdfdfd');
   //usa a propriedade getProperty Value para pegar o valor da var
   const darkModeIcon = document.querySelector('#darkMode-icon');
 
